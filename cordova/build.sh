@@ -111,7 +111,7 @@ if [ ! -d $PROJECT ]; then
   cordova plugin add https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git && cordova prepare
   checkOK
 
-  cordova plugin add hu.dpal.phonegap.plugins.spinnerdialog
+  cordova plugin add https://github.com/Paldom/SpinnerDialog.git
   checkOK
 
   cordova plugin add org.apache.cordova.dialogs
@@ -123,7 +123,7 @@ if [ ! -d $PROJECT ]; then
   cordova plugin add org.apache.cordova.console
   checkOK
 
-  cordova plugin add hu.dpal.phonegap.plugins.uniquedeviceid
+  cordova plugin add https://github.com/Paldom/UniqueDeviceID.git
   checkOK
 
   cordova plugin add org.apache.cordova.file
